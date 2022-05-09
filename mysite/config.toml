@@ -1,0 +1,77 @@
+baseurl = "https://github.com/wl434/Personal-Website"
+languageCode = "en-us"
+title = "William Line Personal Site"
+theme = "blackburn"
+author = "William Line"
+copyright = "&copy; 2021. All rights reserved."
+canonifyurls = true
+paginate = 10
+publishDir = "docs"
+
+[indexes]
+  tag = "tags"
+  topic = "topics"
+
+[params]
+  # Shown in the home page
+  subtitle = ""
+  brand = "WTL"
+  googleAnalytics = "Your Google Analytics tracking ID"
+  disqus = "Your Disqus shortname"
+  # CSS name for highlight.js
+  highlightjs = "androidstudio"
+  dateFormat = "02 Jan 2006"
+
+[menu]
+  # Shown in the side menu.
+  [[menu.main]]
+    name = "Home"
+    pre = "<i class='fa fa-home fa-fw'></i>"
+    weight = 1
+    identifier = "home"
+    url = "/"
+
+  [[menu.main]]
+    name = "About"
+    pre = "<i class='fa fa-user fa-fw'></i>"
+    weight = 3
+    identifier = "about"
+    url = "/about/"
+
+  [[menu.main]]
+    name = "Contact"
+    pre = "<i class='fa fa-phone fa-fw'></i>"
+    weight = 4
+    url = "/contact/"
+
+[social]
+  # Link your social networking accouns to the side menu
+  # by entering your username or ID.
+  #twitter="*"
+  # gnusocial="*"
+  linkedin="william-line-jr-486648173"
+  facebook="william.junior.7311"
+  # weibo="*"
+  # tumblr="*"
+  instagram="wtline"
+  # flickr="*"
+  # photo500px="*"
+  # pinterest="*"
+  # youtube="*"
+  # vimeo="*"
+  # vine="*"
+  # slideshare="*"
+
+  # xing="*"
+  # reddit="*"
+  # hackernews="*"
+  github="wl434"
+  # gitlab="*"
+  # bitbucket="*"
+  #stackoverflow="*"
+  # serverfault="*"
+  # steam="*"
+  # mobygames="*"
+  # lastfm="*"
+  # discogs="*"
+  # keybase="*"
